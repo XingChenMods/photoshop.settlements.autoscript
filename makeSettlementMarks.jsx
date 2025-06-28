@@ -22,25 +22,65 @@
 //TODO: Replace this array of SETTLEMENTS to process with the output from csvToSettlements.js
 var SETTLEMENTS = [
   {
-    "id": "fort_zhao1",
-    "name": "邢"
+    "id": "f.v.wei6.1",
+    "name": "酸枣"
   },
+  {
+    "id": "f.v.wei6.2",
+    "name": "虚"
+  },
+  {
+    "id": "f.v.wei6.3",
+    "name": "桃人"
+  },
+  {
+    "id": "f.wei7",
+    "name": "平邑"
+  },
+  {
+    "id": "f.v.wei7.1",
+    "name": "元"
+  },
+  {
+    "id": "f.v.wei7.2",
+    "name": "棘沟"
+  },
+  {
+    "id": "f.v.wei7.3",
+    "name": "繁阳"
+  },
+  {
+    "id": "f.wei8",
+    "name": "葭密"
+  },
+  {
+    "id": "f.v.wei8.1",
+    "name": "磨山"
+  },
+  {
+    "id": "f.v.wei8.2",
+    "name": "襄丘"
+  },
+  {
+    "id": "f.v.wei8.3",
+    "name": "文台"
+  }
 ];
 function processTemplateGroup() {
   var doc = app.activeDocument;
 
   // Function to determine template name based on ID prefix
   function getTemplateNameFromId(id) {
-    if (id.indexOf("pass_") === 0) {
-      return "<Template> pass";
-    } else if (id.indexOf("town_village_") === 0) {
-      return "<Template> town_village";
-    } else if (id.indexOf("fort_village_") === 0) {
-      return "<Template> fort_village";
-    } else if (id.indexOf("town_") === 0) {
-      return "<Template> town";
-    } else if (id.indexOf("fort_") === 0) {
-      return "<Template> fort";
+    if (id.indexOf("p.") === 0) {
+      return "<Template> p";
+    } else if (id.indexOf("t.v.") === 0) {
+      return "<Template> t.v";
+    } else if (id.indexOf("f.v.") === 0) {
+      return "<Template> f.v";
+    } else if (id.indexOf("t.") === 0) {
+      return "<Template> t";
+    } else if (id.indexOf("f.") === 0) {
+      return "<Template> f";
     } else {
       return null; // Unknown prefix
     }
