@@ -38,7 +38,7 @@ function csvToSettlements(csvFilePath) {
 
       // Extract name (2st column, index 1) and id (8th column, index 7)
       const name = columns[1].trim();
-      const id = columns[7].trim();
+      const id = columns[8].trim();
 
       // Skip rows with empty name or id
       if (!name || !id) {

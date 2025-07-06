@@ -22,48 +22,48 @@
 //TODO: Replace this array of SETTLEMENTS to process with the output from csvToSettlements.js
 var SETTLEMENTS = [
   {
-    "id": "f.v.wei6.1",
-    "name": "酸枣"
+    "id": "t.ba1",
+    "name": "巴"
   },
   {
-    "id": "f.v.wei6.2",
-    "name": "虚"
+    "id": "t.v.ba1.1",
+    "name": "巴子"
   },
   {
-    "id": "f.v.wei6.3",
-    "name": "桃人"
+    "id": "t.v.ba1.2",
+    "name": "大足"
   },
   {
-    "id": "f.wei7",
-    "name": "平邑"
+    "id": "t.ba2",
+    "name": "朐忍"
   },
   {
-    "id": "f.v.wei7.1",
-    "name": "元"
+    "id": "t.v.ba2.1",
+    "name": "羊渠"
   },
   {
-    "id": "f.v.wei7.2",
-    "name": "棘沟"
+    "id": "f.ba1",
+    "name": "宕渠"
   },
   {
-    "id": "f.v.wei7.3",
-    "name": "繁阳"
+    "id": "f.v.ba1.1",
+    "name": "宕"
   },
   {
-    "id": "f.wei8",
-    "name": "葭密"
+    "id": "f.ba2",
+    "name": "兹方"
   },
   {
-    "id": "f.v.wei8.1",
-    "name": "磨山"
+    "id": "f.v.ba2.1",
+    "name": "兹"
   },
   {
-    "id": "f.v.wei8.2",
-    "name": "襄丘"
+    "id": "f.ba3",
+    "name": "枳"
   },
   {
-    "id": "f.v.wei8.3",
-    "name": "文台"
+    "id": "f.v.ba3.1",
+    "name": "枳"
   }
 ];
 function processTemplateGroup() {

@@ -1,0 +1,5 @@
+﻿国,中文名,类型,父级,状态,拼音,英文名,组序号,ID,type,parent,max_above,state,style,配置,产出,,,,,,
+周,洛邑,城邑,,模型待改,Luòyì,Luo4 Yi4,1,t.zhou1,town,,0,zhou,1,未添加,,,,,,,
+周,乘轩里,村庄,洛邑,,Chéngxuānlǐ,Cheng2 Xuan1 Li3,1,t.v.zhou1.1,village,2,0,zhou,,未添加,粟,,,,,,
+周,解口,村庄,洛邑,,Xièkǒu,Xie4 Kou3,2,t.v.zhou1.2,village,2,1,zhou,,未添加,粟,,,,,,
+周,缑氏,村庄,洛邑,,Gōushì,Gou1 Shi4,3,t.v.zhou1.3,village,2,2,zhou,,未添加,粟,,,,,,
